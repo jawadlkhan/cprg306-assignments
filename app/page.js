@@ -1,13 +1,11 @@
-import React from 'react';
 import Link from 'next/link';
 
-const StudentInfo = () => {
-  return (
-    <div>
-      <h1>week2</h1>
-      <p><Link href="/week-2" passHref>week2</Link></p>
-    </div>
-  );
-};
-
-export default StudentInfo;
+export default function Page() {
+    return (
+      <div>
+        <heading>CPRG 306: Web Development 2 - Assignments</heading>
+        <p> <Link href="/week-2">Week-2 Assignment</Link>.</p>
+        <p> <Link href="/week-3">Week-3 Assignment</Link>.</p>
+      </div>
+    );
+  }

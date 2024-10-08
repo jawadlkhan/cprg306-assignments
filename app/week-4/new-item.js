@@ -24,9 +24,7 @@ export default function NewItem() {
         <button
           onClick={decrement}
           disabled={quantity === 1}
-          className={`p-2 bg-gray-500 text-white rounded ${
-            quantity === 1 ? "opacity-50 cursor-not-allowed" : ""
-          }`}
+          className={`p-2 bg-gray-500 text-white rounded ${quantity === 1 ? "opacity-50 cursor-not-allowed" : ""}`}
         >
           -
         </button>
@@ -34,9 +32,7 @@ export default function NewItem() {
         <button
           onClick={increment}
           disabled={quantity === 20}
-          className={`p-2 bg-blue-500 text-white rounded ${
-            quantity === 20 ? "opacity-50 cursor-not-allowed" : ""
-          }`}
+          className={`p-2 bg-blue-500 text-white rounded ${quantity === 20 ? "opacity-50 cursor-not-allowed" : ""}`}
         >
           +
         </button>
